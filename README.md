@@ -25,6 +25,7 @@ pnpm start   # http://localhost:3000
 
 | Next | `/api/stream` then reloads | `/api/direct` then reloads |
 |---|---|---|
+| 16.3.8 (published, latest stable, Turbopack) | stale | fresh on the 2nd reload |
 | 16.3.3 (published, Turbopack) | stale | fresh on the 2nd reload |
 | 16.4.0-canary.54, local build, webpack | stale | fresh on the 2nd reload |
 | 16.4.0-canary.54 + route-handler fix, local build, webpack | fresh on the 2nd reload | fresh on the 2nd reload |
@@ -39,12 +40,12 @@ Operating System:
   Available memory (MB): 98304
   Available CPU cores: 12
 Binaries:
-  Node: 24.21.0
+  Node: 26.7.0
   npm: 11.19.0
   Yarn: 1.22.22
   pnpm: 11.23.0
 Relevant Packages:
-  next: 16.3.3 // There is a newer version (16.3.8) available, upgrade recommended!
+  next: 16.3.8 // Latest available version is detected (16.3.8).
   eslint-config-next: N/A
   react: 19.2.7
   react-dom: 19.2.7
